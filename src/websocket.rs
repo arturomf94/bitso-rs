@@ -279,4 +279,6 @@ pub enum Books {
     TrxUsd,
     #[strum(serialize = "algo_usd")]
     AlgoUsd,
+    #[strum(serialize = "ldo_usd")]
+    LdoUsd,
 }
