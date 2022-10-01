@@ -281,4 +281,6 @@ pub enum Books {
     AlgoUsd,
     #[strum(serialize = "ldo_usd")]
     LdoUsd,
+    #[strum(serialize = "xlm_usd")]
+    XlmUsd,
 }
