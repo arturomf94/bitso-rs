@@ -1,9 +1,0 @@
-name: Pull Request Linting
-on:
-  pull_request:
-    types: [opened, edited, synchronize, reopened, labeled]
-jobs:
-  review:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: bitsoex/pull-request-linter@v1.1.0
