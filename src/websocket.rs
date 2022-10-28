@@ -283,4 +283,22 @@ pub enum Books {
     LdoUsd,
     #[strum(serialize = "xlm_usd")]
     XlmUsd,
+    #[strum(serialize = "matic_brl")]
+    MaticBrl,
+    #[strum(serialize = "ada_brl")]
+    AdaBrl,
+    #[strum(serialize = "sol_brl")]
+    SolBrl,
+    #[strum(serialize = "xrp_brl")]
+    XrpBrl,
+    #[strum(serialize = "doge_brl")]
+    DogeBrl,
+    #[strum(serialize = "chz_brl")]
+    ChzBrl,
+    #[strum(serialize = "usdt_brl")]
+    UsdtBrl,
+    #[strum(serialize = "paxg_usd")]
+    PaxgUsd,
+    #[strum(serialize = "shib_brl")]
+    ShibBrl,
 }
