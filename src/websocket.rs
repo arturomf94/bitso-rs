@@ -301,4 +301,6 @@ pub enum Books {
     PaxgUsd,
     #[strum(serialize = "shib_brl")]
     ShibBrl,
+    #[strum(serialize = "eur_mxn")]
+    EurMxn,
 }
