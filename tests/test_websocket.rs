@@ -1,13 +1,13 @@
 use bitsors::websocket::*;
 
 #[cfg(test)]
-#[derive(serde_derive::Deserialize)]
+#[derive(Debug, serde_derive::Deserialize)]
 pub struct BitsoBooks {
     pub payload: Vec<Book>,
 }
 
 #[cfg(test)]
-#[derive(serde_derive::Deserialize)]
+#[derive(Debug, serde_derive::Deserialize)]
 pub struct Book {
     #[serde(rename = "book")]
     pub name: String,
