@@ -303,4 +303,6 @@ pub enum Books {
     ShibBrl,
     #[strum(serialize = "eur_mxn")]
     EurMxn,
+    #[strum(serialize = "tigres_mxn")]
+    TigresMxn,
 }
